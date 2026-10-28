@@ -11,10 +11,10 @@ public class CategoriasDB
     //e armazená-los na variável
     private static readonly List<categorias> categorias = new()
     {
-        new categorias(1, "Computador Gamer", ""),  
-        new categorias(2, "Periféricos", ""),  
-        new categorias(3, "Eletrônicos", ""),  
-        new categorias(4, "Monitores", ""),
+        new categorias(1, "Computador Gamer", "computadores e componentes"),  
+        new categorias(2, "Periféricos", "mouse, teclado e acessorios"),  
+        new categorias(3, "Eletrônicos", "ao sei oque escrever"),  
+        new categorias(4, "Monitores", "telas e monitores"),
     };
 
     //Passo 02- Criar métodos do Crud e remover regra d negocio do controller
